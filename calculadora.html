@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora SImples com JavaScript</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Calculadora Simples</h1>
+    <div id="calculadora">
+
+        <div id="visor">
+            <p id="visorOperation"></p>
+            <p id="visorContent"></p>
+            <p id="op"></p>
+            <p id="num1"></p>
+
+        </div>
+
+        <div id="digitos">
+
+            <button class="numeros" onclick="addUm()" id="um">1</button>
+            
+            <button class="numeros" onclick="addDois()" id="dois">2</button>
+            
+            <button class="numeros" onclick="addTres()" id="tres">3</button>
+
+            <button class="numeros" onclick="addQuatro()" id="quatro">4</button>
+            
+            <button class="numeros" onclick="addCinco()" id="cinco">5</button>
+            
+            <button class="numeros" onclick="addSeis()" id="seis">6</button>
+            
+            <button class="numeros" onclick="addSete()" id="sete">7</button>
+            
+            <button class="numeros" onclick="addOito()" id="oito">8</button>
+            
+            <button class="numeros" onclick="addNove()" id="nove">9</button>
+
+            <button class="numeros" onclick="addVirgula()" id="virgula">.</button>
+            
+            <button class="numeros" onclick="addZero()" id="zero">0</button>
+
+            <button class="operacoes" onclick="operacao(1)" id="somar">+</button>
+            
+            <button class="operacoes" onclick="operacao(2)" id="subtrair">-</button>
+            
+            <button class="operacoes" onclick="operacao(3)" id="multiplicar">*</button>
+            
+            <button class="operacoes" onclick="operacao(4)" id="dividir">÷</button>
+
+            <button class="operacoes" onclick="limparTudo()" id="limpar">C</button>
+            
+            <button class="operacoes" onclick="calcular()" id="resultado">=</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
